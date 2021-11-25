@@ -106,9 +106,10 @@ a.b_link{background:#7ecef4;display:inline-block;color:#fff;font-size:1.3rem;tex
 @media screen and (max-width: 640px) {
 	.block_recruit {
 		overflow-x: auto;
+		padding-bottom: 20px;
 	  }
 	  .tbl-recruit {
 		min-width: 640px;
-		margin: 0 10px 50px;
 	  }
+	
 }
