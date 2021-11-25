@@ -16,6 +16,7 @@
 <link rel="stylesheet" href="./css/sub.css">
 <link rel="stylesheet" href="./css/contents.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
 </head>
 <body>
 
@@ -71,7 +72,7 @@
 
 <div class="top_contents">
 
-<!--オルソケラトロジー-->
+<!--オルソケラトロジ
 <section class="top_ortho">
 	<div class="ortho">
 		<h2 class="mincho">オルソケラトロジーのご紹介</h2>
@@ -90,6 +91,7 @@
 		</div>
 	</div>
 </section>
+ー-->
 
 <!--お知らせ-->
 <section class="top_news">
@@ -153,7 +155,7 @@
 				</tr>
 				</tbody>
 			</table>
-			<p class="shinryo_mes">休診日：火曜午後・土曜午後・日曜日・祝日<br>疾患の内容により、すべての検査が行えない場合があります。</p>
+			<p class="shinryo_mes">休診日：火曜午後・土曜午後・日曜日・祝日・年末年始<br>疾患の内容により、すべての検査が行えない場合があります。</p>
 			<a href="./rsvapp" class="b_yoyaku">診療の予約をする</a>
 		</div>
 	</div>
