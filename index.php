@@ -2,10 +2,11 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>深見眼科</title>
+<title>豊田市で白内障手術なら【深見眼科】　WEB・電話予約可 </title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="format-detection" content="telephone=no">
-<meta name="description" content="">
+<meta name="description" content="目に関する不安は何でもご相談ください。白内障手術、硝子体注射、緑内障や網膜のレーザー治療、オルソケラトロジー（近視治療）まで幅広く対応。 ">
+<link rel="canonical" href="https://fukami-ganka.jp/">
 <link rel="stylesheet" href="./js/slick/slick.css">
 <link rel="stylesheet" href="./js/slick/slick-theme.css">
 <link rel="stylesheet" href="./css/loaders.min.css">
