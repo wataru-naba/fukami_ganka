@@ -12,6 +12,7 @@
 .block .t_sub:first-of-type{margin:50px 0 40px;}
 .block_bio .i_name{margin:0 0 40px;font-size:2.1rem;border-bottom:1px solid #595757;padding:0 5px 7px;font-weight: normal;}
 .block_bio .i_name span{font-size:1.5rem;display: block;float: left; line-height: 3.5rem; padding-right: 10px;letter-spacing: 0.4rem;}
+.block_bio .s_name{margin:10px 10px;font-size:1.8rem;font-weight: normal;}
 
 @media screen and (max-width:767px){
 	.t_sub{font-size:1.9rem;padding:0 0 7px;}
