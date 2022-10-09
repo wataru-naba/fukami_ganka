@@ -5,7 +5,8 @@
 <title>豊田市で白内障手術なら【深見眼科】　WEB・電話予約可 </title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="format-detection" content="telephone=no">
-<meta name="description" content="目に関する不安は何でもご相談ください。白内障手術、硝子体注射、緑内障や網膜のレーザー治療、オルソケラトロジー（近視治療）まで幅広く対応。 ">
+<meta name="description" content="愛知県豊田市の眼科。目に関する不安は何でもご相談ください。白内障手術、硝子体注射、緑内障や網膜のレーザー治療、オルソケラトロジー（近視治療）まで幅広く対応。">
+<meta name="keyword" content="愛知県,豊田市,眼科,白内障手術,硝子体注射,緑内障,網膜のレーザー治療,オルソケラトロジー（近視治療）">
 <link rel="canonical" href="https://fukami-ganka.jp/">
 <link rel="stylesheet" href="./js/slick/slick.css">
 <link rel="stylesheet" href="./js/slick/slick-theme.css">
@@ -33,7 +34,7 @@
 
 <header class="header">
 	<div class="inner">
-		<h1 class="logo"><a href="./index.html"><img src="./images/logo_top.svg" alt="深見眼科"></a></h1>
+		<h1 class="logo"><a href="./index.html"><img src="./images/logo_top.svg" alt="深見眼科 愛知県豊田市の眼科"></a></h1>
 		<div class="h_tel">tel.0565-34-1155</div>
 	</div>
 </header>
@@ -53,7 +54,7 @@
 
 <header class="sub_header fix mincho">
 	<div class="inner">
-		<div class="sub_logo"><h1><a href="./index.php"><img src="./images/logo.svg" alt="深見眼科" width="178"></a></h1></div>
+		<div class="sub_logo"><h1><a href="./index.php"><img src="./images/logo.svg" alt="深見眼科 愛知県豊田市の眼科" width="178"></a></h1></div>
 		<div class="sp_tel"><a href="tel:0565-34-1155"><i class="icon-phone-circled"></i></a></div>
 		<div class="nav_wrap">
 			<div class="h_tel">tel.0565-34-1155</div>
@@ -80,27 +81,6 @@
 </div>
 
 <div class="top_contents">
-
-<!--オルソケラトロジ
-<section class="top_ortho">
-	<div class="ortho">
-		<h2 class="mincho">オルソケラトロジーのご紹介</h2>
-		<div class="ortho_top">
-			<div class="ortho_desc clearfix"><img src="./images/moonstar.png" width="87">オルソケラトロジーとは特殊なコンタクトレンズを寝ている間に装用する事で近視の矯正を行う治療法の一種です。特に小児期の近視の進行抑制に効果があると注目されています。</div>
-			<a href="./ortho.html" class="b_ortho">詳しくはこちら<i class="icon-right-circle"></i></a>
-		</div>
-		<div class="ortho_bottom">
-			<h3 class="mincho">スペシャルコラム</h3>
-			<ul class="tile a1-b1-c2 am15">
-				<li><a href="./ortho_about.html" class="ortho_menu_button"><span>オルソケラトロジーとは</span></a></li>
-				<li><a href="./ortho_merit-demerit.html" class="ortho_menu_button"><span>オルソケラトロジーの向き不向き<br>メリットデメリット</span></a></li>
-				<li><a href="./ortho_cost.html" class="ortho_menu_button"><span>オルソケラトロジーの費用</span></a></li>
-				<li><a href="./ortho_qa.html" class="ortho_menu_button"><span>オルソケラトロジーQ&amp;A</span></a></li>
-			</ul>
-		</div>
-	</div>
-</section>
-ー-->
 
 <!--お知らせ-->
 <section class="top_news">
@@ -197,7 +177,7 @@
 </div><!--/top_contents-->
 
 <footer class="footer clearfix">
-	<a href="./index.html" class="f_logo"><img src="./images/logo.svg" alt="深見眼科"></a>
+	<a href="./index.html" class="f_logo"><img src="./images/logo.svg" alt="深見眼科 愛知県豊田市の眼科"></a>
 	<div class="copyright"><i class="icon-at"></i> Fukami eye clinic All Right Reserved.<br/><a href="https://fukami-ganka.jp/sitemap.html"> - サイトマップ</div>
 </footer>
 
