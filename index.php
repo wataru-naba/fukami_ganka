@@ -27,6 +27,24 @@
 
   gtag('config', 'G-466TG755TX');
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Optician",
+  "name": "深見眼科",
+  "image": "https://fukami-ganka.jp/images/shisetsu_machiaishitsu.jpg",
+  "@id": "https://fukami-ganka.jp/index.php",
+  "url": "https://fukami-ganka.jp",
+  "telephone": "0565-34-1155",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "陣中町",
+    "addressLocality": "豊田市",
+    "postalCode": "471-0079",
+    "addressCountry": "JP"
+  }  
+}
+</script>
 </head>
 <body>
 
