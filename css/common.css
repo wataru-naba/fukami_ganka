@@ -23,10 +23,10 @@ a:hover{color:#7ecef4;}
 
 /*ナビゲーション
 ------------------------------*/
-.nav{max-width:900px;background:#fff;padding:0 20px;margin-bottom:42px;}
+.nav{max-width:1200px;background:#fff;padding:0 20px;margin-bottom:42px;}
 .nav .nav_list{display:table;}
-.nav .nav_list a{position:relative;font-size:1.2rem;display:table-cell;vertical-align:middle;padding:7px 20px;text-align:center;}
-.sub_nav .nav_list a{position:relative;display:table-cell;vertical-align:middle;font-size:1.1rem;padding:5px 8px;text-align:center;}
+.nav .nav_list a{position:relative;font-size:1.3rem;display:table-cell;vertical-align:middle;padding:7px 20px;text-align:center;}
+.sub_nav .nav_list a{position:relative;display:table-cell;vertical-align:middle;font-size:1.2rem;padding:5px 8px;text-align:center;}
 
 .nav_list a:before{
 	content:"";display:block;position:absolute;left:0;top:0;height:100%;width:1px;
@@ -51,13 +51,13 @@ a:hover{color:#7ecef4;}
 /*共通ヘッダー
 ------------------------------*/
 .sub_header{width:100%;max-width:100%;padding:44px 20px 40px;background:#fff;}
-.sub_header .inner{display:table;width:100%;max-width:900px;border-collapse:collapse;}
+.sub_header .inner{display:table;width:100%;max-width:1100px;border-collapse:collapse;}
 .sub_logo{display:table-cell;vertical-align:bottom;padding-right:20px;}
-.sub_logo a{display:inline-block;font-size:1.5rem;}
+.sub_logo a{display:inline-block;font-size:1.7rem;}
 .sub_logo a img{vertical-align:inherit;}
 
 .nav_wrap{display:table-cell;width:100%;vertical-align:bottom;position:relative;background:#fff;}
-.nav_wrap .sub_nav{max-width:670px;width:100%;float:right;}
+.nav_wrap .sub_nav{max-width:870px;width:100%;float:right;}
 .nav_wrap .h_tel{top:-10px;right:0;}
 .sp_tel{display:none;}
 
