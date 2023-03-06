@@ -91,6 +91,16 @@
 	</div>
 </header>
 
+<div class="top_message m-b-30 pc767" style="margin-top:-30px">
+	<div class="inner">
+	<h1>平日午前の2診制導入のお知らせ</h1>
+	<p>　当院では毎週土曜日は２診制で診察させていただいておりますが、2023年4月からは常勤医師を1名増員し、平日午前も2診制となります。<br/>
+	　今後も患者様の待ち時間改善と丁寧な診察をできるよう努めて参ります。<br/>
+	尚、日帰り白内障手術は週2回行っております。どうぞお気軽にご相談下さい。
+	</p>
+	</div>
+</div>
+
 <div class="main clearfix fix_pos">
 	<div class="slider">
 		<div class="mi mi1"><img src="./images/mes1.svg" alt="よく見える喜びと"></div>
@@ -98,6 +108,16 @@
 		<div class="mi mi3"><img src="./images/mes3.svg" alt="皆さまにお届けしたい。"></div>
 	</div>
 	<div class="loader"><div class="line-spin-fade-loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+</div>
+
+<div class="top_message sp767">
+	<div class="inner">
+	<h1>平日午前の2診制導入のお知らせ</h1>
+	<p>　当院では毎週土曜日は２診制で診察させていただいておりますが、2023年4月からは常勤医師を1名増員し、平日午前も2診制となります。<br/>
+	　今後も患者様の待ち時間改善と丁寧な診察をできるよう努めて参ります。<br/>
+	尚、日帰り白内障手術は週2回行っております。どうぞお気軽にご相談下さい。
+	</p>
+	</div>
 </div>
 
 <div class="top_contents">

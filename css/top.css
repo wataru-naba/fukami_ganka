@@ -1,3 +1,21 @@
+.top_message{
+	padding: 20px;
+}
+.top_message h1{
+	font-size: 1.8rem;
+	text-align: center;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+.top_message p{
+	font-size: 1.6rem;
+	line-height: 2.2rem;
+}
+.top_message .inner{
+	max-width: 800px;
+	margin: 0 auto;
+}
+
 /*メイン
 ------------------------------*/
 .main{position:relative;margin-bottom:70px;height:618px;overflow:hidden;}
@@ -122,11 +140,24 @@ a.ortho_menu_button span{display:table-cell;text-align:center;vertical-align:mid
 
 .table_info{border-collapse:collapse;width:100%;border-top:1px solid #595757;margin-bottom:10px;}
 .table_info tr{border-bottom:1px solid #595757;}
+
 .table_info td{padding:10px 15px;text-align:center;}
 .table_info thead td{text-align:center;}
 .table_info tbody tr td:first-child{text-align:right;}
+.table_info tbody tr:first-child > td {
+	vertical-align: top;
+}
+.table_info tbody tr:first-child > td:nth-child(7)::after{
+	content: '2診';
+	display: block;
+	font-size: 1.1rem;
+} 
 
 .shinryo_mes{font-size:1.3rem;line-height:1.5;margin-bottom:10px;}
+.shinryo_mes::before{
+	content: '２診：２診制です。';
+	display: block;
+}
 a.b_yoyaku{display:block;width:195px;height:50px;line-height:48px;border:1px solid #7ecef4;color:#7ecef4;text-align:center;border-radius:25px;transition:0.3s;}
 .hover a.b_yoyaku:hover{background:#7ecef4;color:#fff;}
 
