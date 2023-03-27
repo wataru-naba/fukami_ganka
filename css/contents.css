@@ -190,3 +190,9 @@ a.b_change{margin:10px auto 0;display:block;max-width:100px;text-align:center;}
 @media (max-width:767px){
 	.table_myopine td{font-size:1.4rem;}
 }
+.list-maru {
+	padding-left: 20px;
+}
+.list-maru li{
+	list-style: disc;
+}
