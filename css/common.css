@@ -164,3 +164,54 @@ a:hover{color:#7ecef4;}
 	.alignleft:not(.noclear),.alignright:not(.noclear){float:none;display:block;margin:0 auto 20px;}
 
 }
+
+.consultation{
+	display: flex;
+	justify-items: stretch;
+	margin-bottom: 10px;
+}
+.consultation .hour{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+	flex-basis:25%;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 5px;
+}
+
+.consultation dl {
+	display: flex;
+	width: 100%;
+	border-collapse: collapse;
+	flex-wrap: wrap;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	
+  }
+  .consultation dt,.consultation dd{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	padding: 5px;
+	text-align: center;
+	flex-basis: calc(100% / 7);
+	box-sizing: border-box;
+	font-size: 1.1rem;
+	line-height: 1.4rem;
+	align-items: center;
+	justify-content: center;
+  }
+  .consultation dt{
+	display: flex;
+	align-items: center;
+	font-weight: normal;
+	border-left: none;
+  }
+  .consultation dd{
+		min-height: 35px;
+		display: flex;
+  }

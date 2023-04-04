@@ -154,10 +154,7 @@ a.ortho_menu_button span{display:table-cell;text-align:center;vertical-align:mid
 } 
 
 .shinryo_mes{font-size:1.3rem;line-height:1.5;margin-bottom:10px;}
-.shinryo_mes::before{
-	content: '２診：２診制です。';
-	display: block;
-}
+
 a.b_yoyaku{display:block;width:195px;height:50px;line-height:48px;border:1px solid #7ecef4;color:#7ecef4;text-align:center;border-radius:25px;transition:0.3s;}
 .hover a.b_yoyaku:hover{background:#7ecef4;color:#fff;}
 
