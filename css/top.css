@@ -8,8 +8,12 @@
 	font-weight: normal;
 }
 .top_message p{
-	font-size: 1.6rem;
-	line-height: 2.2rem;
+	font-size: 1.5rem;
+	line-height: 2.4rem;
+}
+.top_message a{
+	color: #4abdf2;
+	font-weight: bold;
 }
 .top_message .inner{
 	max-width: 800px;

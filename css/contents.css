@@ -11,11 +11,46 @@
 .bio_r{display:table-cell;width:100%;vertical-align: middle;}
 p.msg{text-align: center;line-height: 3.5rem;font-size: 1.6rem;}
 
+dl.profile{
+	display: flex;
+	justify-content: stretch;
+	padding: 10px 0;
+}
+dl.profile dt{
+	width: 88px;
+	margin-right: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+dl.profile dd{
+	display: flex;
+	align-items: center;
+}
+dl.profile dd span{
+	font-size: 1.5rem;
+	padding-left: 20px;
+	position: relative;
+	display: block;
+}
+dl.profile dd span::before{
+	content:'\2022';
+	left: 0;
+	top: -10px;
+	position: absolute;
+	font-size: 2.5rem;
+}
+
+
 @media screen and (max-width:767px){
 .block_bio{background:#f7f7f7;padding:40px 15px 10px;}
 .bio_l{display:block;text-align:center;padding:0 0 30px 0;}
 .bio_r{display:block;}
 p.msg{text-align: left;font-size: 1.5rem;}
+dl.profile{
+	display: block;
+}
+dl.profile dt{display: block;}
 }
 
 
