@@ -64,11 +64,12 @@
 		<a href="./ishi.html">医師紹介</a>
 		<a href="./shisetsu.html">施設紹介</a>
 		<a href="./rsvapp">診療予約</a>
-		<a href="./sick.html">目の病気</a>
-        <a href="./sick_hakunaisho.html" >白内障手術</a>
-		<a href="./ortho.html">オルソケラトロジー<br>（自費診療）</a>
-		<a href="./myopine.html">マイオピン点眼薬<br>（自費診療）</a>
-		<a href="./recruit.html">採用情報</a>
+		<a href="./qa.html"><span>よくある質問<br/>Q&A</span></a>
+		<a href="./sick.html" class="lower_row">目の病気</a>
+        <a href="./sick_hakunaisho.html"  class="lower_row">白内障手術</a>
+		<a href="./ortho.html"  class="lower_row"><span>オルソケラトロジー<br>（自費診療）</span></a>
+		<a href="./myopine.html"  class="lower_row"><span>マイオピン点眼薬<br>（自費診療）</span></a>
+		<a href="./recruit.html"  class="lower_row">採用情報</a>
 	</div>
 </nav>
 

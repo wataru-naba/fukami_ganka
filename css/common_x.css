@@ -24,10 +24,8 @@ a:hover{color:#7ecef4;}
 /*ナビゲーション
 ------------------------------*/
 .nav{max-width:1200px;background:#fff;padding:0 20px;margin-bottom:42px;}
-.nav .nav_list{display:flex; flex-wrap: wrap;}
-.nav .nav_list a{flex-basis: calc(100% / 6);position:relative;font-size:1.4rem; font-weight: bold ;padding:7px 20px;display: grid; place-items:center; margin-bottom: 5px;}
-.nav .nav_list a.lower_row{flex-basis: calc(100% / 5);}
-.nav .nav_list a span{display: block; text-align: center;}
+.nav .nav_list{display:table;}
+.nav .nav_list a{position:relative;font-size:1.3rem;display:table-cell;vertical-align:middle;padding:7px 20px;text-align:center;}
 .sub_nav .nav_list a{position:relative;display:table-cell;vertical-align:middle;font-size:1.2rem;padding:5px 8px;text-align:center;}
 
 .nav_list a:before{
@@ -38,7 +36,6 @@ a:hover{color:#7ecef4;}
 	background-size:1px 5px;
 	background-position:0 -3px;
 }
-.nav_list a:nth-child(6):after,
 .nav_list a:last-child:after{
 	content:"";display:block;position:absolute;right:0;top:0;height:100%;width:1px;
 	background-image:-ms-linear-gradient(#231815 1px, transparent 1px);
@@ -66,12 +63,14 @@ a:hover{color:#7ecef4;}
 
 .sub_nav a:not(.active){color:#b5b5b5;}
 .sub_nav.no_active a{color:#595757;}
-.sub_nav .nav_list a{font-size:1.0rem}
+
 /*fix nav*/
 .fix{position:fixed;top:-143px;left:0;z-index:2;transition:0.5s;}
 .fix.on{top:0;}
 
-
+@media (max-width:920px){
+	.sub_nav .nav_list a{font-size:1.2rem}
+}
 
 @media (max-width:900px){
 	.header{display:none;}
