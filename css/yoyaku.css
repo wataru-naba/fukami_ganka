@@ -1,0 +1,209 @@
+.inner{
+    max-width:760px;
+    padding: 0 20px;
+}
+p{
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    margin-bottom: 10px;
+}
+.yoyaku_tutorial h1{
+    text-align: center;
+    padding: 13px 0;
+    margin-bottom: 13px;
+    border-bottom: solid 1px #595757;
+    letter-spacing: 0.1rem;
+}
+.yoyaku_notice{
+    padding: 20px;
+    background: #FFF6E9;
+    margin-bottom: 20px;
+}
+.yoyaku_notice strong{
+    display: block;
+    padding: 10px;
+    border: solid 1px #595757;
+    background: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+   
+}
+
+.yoyaku_howto{
+    border: solid 1px #595757;
+    padding: 20px;
+    display: block;
+    margin-bottom: 40px;
+}
+.yoyaku_howto h3{
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 6px ;
+    margin-bottom: 20px;
+    border-bottom: solid 1px #595757;
+    letter-spacing: 0.1rem;
+}
+.yoyaku_howto ul li{
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    position: relative;
+}
+.yoyaku_howto ul li::before{
+    content: '●';
+    position: absolute;
+    left: 0;
+}
+
+[class^=yoyaku_download]{
+    margin-bottom: 40px;
+}
+[class^=yoyaku_app]{
+    margin-bottom: 60px;
+}
+
+[class*=--link] h1{
+    max-width: 800px;
+    margin: 0 auto;
+    padding:0 20px;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+[class*=--link] .wrap{
+    padding: 30px 0;
+    background: rgba(126, 206, 244, 0.35);
+}
+[class*=--link] .inner{
+    max-width: 840px;
+}
+[class*=--link] a{
+    background: #7ECEF4;
+    border: #7ECEF4 solid 1px;
+    max-width: 500px;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    margin:  10px auto 0;
+    font-weight: bold;
+    font-size: 1.9rem;
+    color: #fff;
+    letter-spacing: 0.1rem;
+}
+[class*=--link] a:hover{
+    background: #fff;
+    color: #7ECEF4;
+}
+[class*=--link] p{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    margin-bottom: 20px;
+}
+
+[class^=yoyaku_web] a{
+    margin-bottom: 10px;
+}
+[class^=yoyaku_web] span{
+    display: block;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 2.0rem;
+}
+
+.yoyaku_step{
+    margin-bottom: 40px;
+}
+
+.yoyaku_step h1{
+    text-align: center;
+    padding:0 6px 13px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px #595757;
+    letter-spacing: 0.1rem;
+}
+
+.yoyaku_step ul{
+    font-size: 1.6rem;
+}
+.yoyaku_step ul li{
+    margin-bottom: 20px;
+    padding:10px 0px 10px 40px;
+    border-bottom: solid 1px #595757;
+    position: relative;
+    font-weight: bold;
+} 
+.yoyaku_step ul li::before{
+    content: attr(data-num);
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 30px;
+    position: absolute;
+    border-right: solid 1px #595757;
+    display: grid;
+    place-items: center;
+}
+.yoyaku_step p{
+    border: solid 1px #595757;
+    text-align: center;
+    padding: 10px 8px;
+    font-weight: bold;
+}
+
+figure.qr{
+    display: grid;
+    place-items: center;
+
+}
+
+figure.qr img{
+    height: 200px;
+}
+
+@media screen and (max-width:768px) {
+    p{
+        font-size: 1.3rem;
+        line-height:1.8rem;
+        margin-bottom: 10px;
+    }
+    .yoyaku_howto ul li{
+        font-size: 1.3rem;
+    }
+    .yoyaku_notice strong{
+        text-align: left;
+        font-size: 1.5rem;
+    }
+    .yoyaku_howto h3{
+        font-size: 1.5rem;
+    }
+    [class*=--link] p{
+        font-size: 1.3rem;
+        line-height: 2.0rem;
+    }
+    [class*=--link] a{
+        font-size: 1.7rem;
+        padding: 14px;
+    }
+    .yoyaku_step h1{
+        font-size: 1.7rem;
+        letter-spacing: 0rem;
+    }
+    .yoyaku_step ul{
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+    }
+    .yoyaku_step ul li{
+        font-weight: normal;
+    }
+    .yoyaku_step p{
+        font-size: 1.4rem;
+        text-align: left;
+    }
+    [class^=yoyaku_web] span{
+        font-size: 1.3rem;
+    }
+
+}

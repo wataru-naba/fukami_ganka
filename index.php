@@ -63,7 +63,7 @@
 		<a href="./shinryou.html">診療について</a>
 		<a href="./ishi.html">医師紹介</a>
 		<a href="./shisetsu.html">施設紹介</a>
-		<a href="./rsvapp">診療予約</a>
+		<a href="./yoyaku.html">診療予約</a>
 		<a href="./qa.html"><span>よくある質問<br/>Q&A</span></a>
 		<a href="./sick.html" class="lower_row">目の病気</a>
         <a href="./sick_hakunaisho.html"  class="lower_row">白内障手術</a>
