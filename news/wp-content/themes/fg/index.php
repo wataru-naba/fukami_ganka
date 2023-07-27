@@ -7,7 +7,10 @@
 
 <?php
 	$offset = $_GET["post"];
-	$arg = array('offset'=>$offset,'posts_per_page'=>7);
+	$arg = array(
+		'offset'=>$offset,
+		'posts_per_page'=>7,
+		'cat' => '-3');
 	$the_query = new WP_Query($arg);
 	$count = 0;
 ?>

@@ -272,8 +272,6 @@
 </section>
 
 <section class="top_banner">
-		<h2 class="t_small m-t-40">コンタクトレンズのご用命は</h2>
-		<div class="al-c"><a href="http://boston-club.jp/" target="_blank"><img src="./images/logo_fukamicontact.png" alt="Fukami Contact"></a></div>
 		<div class="al-c m-t-20"><a href="./recruit.html"><img src="./images/info_recruit.png" alt="採用情報"></a></div>
 </section><!--/top_banner-->
 
@@ -306,8 +304,9 @@ $.getJSON( "https://fukami-ganka.jp/news/wp-json/wp/v2/posts", function(results)
         var title = item.title.rendered;
         var link = item.link;
         var date = year + '.' + month + '.' + day;
-		
-        $('.wp-post').append("<li><a href='" + link + "'><span>"+ date + "</span>" + title + "</a></li>");
+		if(item.link !== 'https://fukami-ganka.jp/news/2023/06/28/close/') {
+        	$('.wp-post').append("<li><a href='" + link + "'><span>"+ date + "</span>" + title + "</a></li>");
+		}
       });
     });
 </script>
