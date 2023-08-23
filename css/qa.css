@@ -7,12 +7,23 @@ dl.qa{
 dl.qa dd,
 dl.qa dt{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    
     padding-left: 45px;
     position: relative;
     box-sizing: border-box;
 }
+
+dl.qa dt a{
+    color: #1d3994;
+    text-decoration: underline;
+}
+
+dl.qa dt a:hover{
+    color: #7ECEF4;
+    text-decoration: none;
+}
+
 dl.qa dd{
     font-size: 2.0rem;
     margin-bottom: 18px;
