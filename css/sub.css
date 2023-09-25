@@ -78,7 +78,7 @@ a.b_link{background:#7ecef4;display:inline-block;color:#fff;font-size:1.3rem;tex
 .tbl-recruit tr.thead th:last-child{width: 55%;}
 .tbl-recruit td{text-align: left;border: solid 1px #231815;font-weight: normal;padding:5px 8px;}
 .block_recruit span{font-size: 1.4rem}
-.pickup_recruit{margin-bottom: 60px;font-size: 2.3rem;color:#EB6100}
+.pickup_recruit{margin-bottom: 20px;font-size: 2.3rem;color:#EB6100}
 .pickup_recruit ul{
 	margin-bottom: 20px;
 }
