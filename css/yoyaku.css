@@ -57,6 +57,20 @@ p{
     left: 0;
 }
 
+
+
+.intro ul li{
+    padding-left: 20px;
+    margin-bottom: 4px;
+    position: relative;
+    line-height: 2.0rem;
+}
+.intro ul li::before{
+    content: '●';
+    position: absolute;
+    left: 0;
+}
+
 [class^=yoyaku_download]{
     margin-bottom: 40px;
 }
