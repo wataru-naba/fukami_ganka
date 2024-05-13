@@ -169,11 +169,26 @@
 <!--診療時間-->
 <section class="top_info">
 	<div class="info">
-		<div>
+		<div class="info-tel-access">
 			<h2 class="t_top"><img src="./images/t_info.png" alt="診療時間" width="126"></h2>
-		</div>
-		<div>
-			<img src="./images/tel.png" alt="0565-34-1155" width="147" class="tel_img">
+			<div class="tel">
+				<img src="./images/tel.png" alt="0565-34-1155" width="147" class="tel_img">
+			</div>
+			<div class="access">
+				<dl>
+					<dt>［深見眼科］</dt>
+					<dd>
+						〒471-0079<br/>
+						豊田市陣中町1-6-11<span><a href="https://maps.app.goo.gl/JBqcASGATYjkKXmW6" target="_blank">Googleマップで開く</a></span>
+					</dd>
+					<dd>
+						【電車をご利用のお客様】<br/>
+						名鉄梅坪駅下車、高架沿いに豊田方面へ(徒歩7〜8分)<br/>
+						【お車をご利用のお客様】<br/>
+						深見眼科ビル前に専用平面駐車25台以上有り
+					</dd>
+				</dl>
+			</div>
 		</div>
 		<div>
 			<div class="consultation">
@@ -279,10 +294,18 @@
 
 <footer class="footer clearfix">
 	<a href="./index.html" class="f_logo"><img src="./images/logo.svg" alt="深見眼科 愛知県豊田市の眼科"></a>
-	<div class="copyright"><i class="icon-at"></i> Fukami eye clinic All Right Reserved.<br/><a href="https://fukami-ganka.jp/sitemap.html"> - サイトマップ</div>
+	<div class="copyright"><i class="icon-at"></i> Fukami eye clinic All Right Reserved.<br/><a href="https://fukami-ganka.jp/sitemap.html"> - サイトマップ</a></div>
 </footer>
 
 <div class="pagetop"><div class="inner"><i class="icon-up-open-big"></i></div></div>
+
+<div class="float-nav mincho">
+	<nav>
+		<a href="">診療案内</a>
+		<a href="">診療予約</a>
+		<a href="">スマホアプリですぐに予約</a>
+	</nav>
+</div>
 
 </div><!--/page-->
 

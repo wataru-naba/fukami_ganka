@@ -1,7 +1,7 @@
 
 <footer class="footer clearfix">
 	<a href="<?= base_url ()?>index.html" class="f_logo"><img src="<?= base_url ()?>images/logo.svg" alt="深見眼科 愛知県豊田市の眼科"></a>
-	<div class="copyright"><i class="icon-at"></i> Fukami eye clinic All Right Reserved.<br/><a href="https://fukami-ganka.jp/sitemap.html"> - サイトマップ</div>
+	<div class="copyright"><i class="icon-at"></i> Fukami eye clinic All Right Reserved.<br/><a href="https://fukami-ganka.jp/sitemap.html"> - サイトマップ</a></div>
 
 </footer>
 
