@@ -56,7 +56,10 @@ p{
     position: absolute;
     left: 0;
 }
-
+.yoyaku_howto ul li strong{
+    color: #ED1A3D;
+    font-weight: normal;
+}
 
 
 .intro ul li{
