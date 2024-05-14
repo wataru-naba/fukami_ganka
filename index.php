@@ -91,6 +91,7 @@
 		<strong>MENU</strong>
 	</div>
 </header>
+<main>
 
 <div class="top_message m-b-30 pc767" style="margin-top:-30px">
 	<div class="inner">
@@ -296,6 +297,8 @@
 	<a href="./index.html" class="f_logo"><img src="./images/logo.svg" alt="深見眼科 愛知県豊田市の眼科"></a>
 	<div class="copyright"><i class="icon-at"></i> Fukami eye clinic All Right Reserved.<br/><a href="https://fukami-ganka.jp/sitemap.html"> - サイトマップ</a></div>
 </footer>
+</main>
+
 
 <div class="pagetop"><div class="inner"><i class="icon-up-open-big"></i></div></div>
 
