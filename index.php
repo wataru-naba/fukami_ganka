@@ -263,7 +263,7 @@
 			疾患の内容により、同日にすべての検査が行えない場合があります。<br/>
 			ご不明な場合はお問合せ下さい
 			</p>
-			<a href="./rsvapp" class="b_yoyaku">診療の予約をする</a>
+			<a href="./yoyaku.html" class="b_yoyaku">診療の予約をする</a>
 		</div>
 	</div>
 </section><!--/top_info-->
@@ -300,11 +300,21 @@
 <div class="pagetop"><div class="inner"><i class="icon-up-open-big"></i></div></div>
 
 <div class="float-nav mincho">
-	<nav>
-		<a href="#" class="modal-button" data-target="modal-shinryo">診療案内</a>
-		<a href="#" class="modal-button" data-target="modal-degisuma">診療予約</a>
-		<a href=""><span>スマホアプリで<span class="sp-block">今すぐ予約</span></span></a>
-	</nav>
+	<div class="pc767">
+		<nav>  
+			<a href="#" class="modal-button" data-target="modal-shinryo">診療案内</a>
+			<a href="./yoyaku.html">診療予約</a>
+			<a  href="#" class="modal-button" data-target="modal-degisuma"><span>スマホアプリで<span class="sp-block">今すぐ予約</span></span></a>
+		</nav>
+	</div>
+	<div class="sp767">
+		<nav>  
+			<a href="./sp/sinryo.html" target="_blank">診療案内</a>
+			<a href="./yoyaku.html">診療予約</a>
+			<a href="./sp/degisuma.html" target="_blank"><span>スマホアプリで<span class="sp-block">今すぐ予約</span></span></a>
+		</nav>
+	</div>
+	
 </div>
 
 </div><!--/page-->
@@ -413,7 +423,7 @@
 					疾患の内容により、同日にすべての検査が行えない場合があります。<br/>
 					ご不明な場合はお問合せ下さい
 					</p>
-					<a href="./rsvapp" class="b_yoyaku">診療の予約をする</a>
+					<a href="./yoyaku.html" class="b_yoyaku">診療の予約をする</a>
 				</div>
 			</div>
 			</div>

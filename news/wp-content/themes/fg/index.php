@@ -125,7 +125,7 @@
 			疾患の内容により、同日にすべての検査が行えない場合があります。<br/>
 			ご不明な場合はお問合せ下さい
 			</p>
-			<a href="../rsvapp" class="b_yoyaku">診療の予約をする</a>
+			<a href="../yoyaku.html" class="b_yoyaku">診療の予約をする</a>
 		</div>
 	</div>
 </div>

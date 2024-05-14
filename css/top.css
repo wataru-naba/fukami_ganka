@@ -325,6 +325,8 @@ a.b_yoyaku{margin:0 auto;height:40px;line-height:38px;border-radius:20px;}
 	.float-nav{
 		padding:10px 0px 0;
 		border-bottom: 4px solid #7ECEF4;
+		background: url('../images/floatnavbk.webp');
+		background-size: 100% auto;
 	}
 	
 	.float-nav nav a{
