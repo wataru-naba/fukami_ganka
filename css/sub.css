@@ -32,10 +32,13 @@
 .block img:not(.imgfix){max-width:100%;height:auto;}
 .block .inner{max-width:800px}
 .block_info{padding-top:90px;}
+.block_info .info > div:nth-child(2){ opacity: 0; width: 20px;}
 .box_indent{padding-left:30px;}
 @media screen and (max-width:767px){
 .block{padding:30px 15px;}
-.block_info{padding-top:40px;border-top:1px solid #ccc;;}
+.block_info{padding-top:40px;border-top:1px solid #ccc;}
+.block_info .t_top{ text-align: center;}
+.block_info .info > div:nth-child(2){ opacity: 1; width: auto;}
 .box_indent{padding-left:0;}
 }
 

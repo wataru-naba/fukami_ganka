@@ -1,226 +1,311 @@
-.inner{
-    max-width:760px;
-    padding: 0 20px;
+@charset "UTF-8";
+section {
+  max-width: 760px;
+  padding: 0 20px;
+  margin-bottom: 30px;
+  figure{
+    margin: 0;
+  }
+  
+  img {
+    max-width: 100%;
+  }
 }
-p{
+
+
+
+p {
+  font-size: 1.7rem;
+  line-height: 2.8rem;
+}
+
+span {
+  display: inline-block;
+}
+
+.s-title-a {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+  }
+}
+.catch {
+  border: solid 1px #595757;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.catch.aspect {
+  aspect-ratio: 10/4;
+}
+.catch.aspect .catch--inner {
+  font-size: 1.8rem;
+}
+.catch.aspect .catch--inner h3 {
+  width: 80%;
+  margin-bottom: 20px;
+}
+.catch p {
+  font-size: 1.7rem;
+}
+@media screen and (max-width: 600px) {
+  .catch {
+    padding: 15px;
+  }
+  .catch p {
+    font-size: 1.5rem;
+  }
+  .catch.aspect .catch--inner {
     font-size: 1.6rem;
-    line-height: 2.2rem;
-    margin-bottom: 10px;
+  }
 }
-.yoyaku_tutorial h1{
-    text-align: center;
-    padding: 13px 0;
-    margin-bottom: 13px;
-    border-bottom: solid 1px #595757;
-    letter-spacing: 0.1rem;
+
+.yoyaku-note {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin-bottom: 30px;
 }
-.yoyaku_notice{
-    padding: 20px;
-    background: #FFF6E9;
-    margin-bottom: 20px;
+.yoyaku-note h4 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: normal;
 }
-.yoyaku_notice strong{
+.yoyaku-note strong {
+  font-weight: normal;
+  color: #E60012;
+}
+@media screen and (max-width: 600px) {
+  .yoyaku-note {
+    font-size: 1.5rem;
+  }
+}
+
+ul.dotto li {
+  padding-left: 25px;
+  position: relative;
+  margin-bottom: 10px;
+}
+ul.dotto li::before {
+  content: "●";
+  position: absolute;
+  left: 0;
+}
+ul.dotto li:last-child {
+  margin-bottom: 0;
+}
+
+.app-banner {
+  margin: 30px 0;
+  background: #5185C5;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.app-banner .item {
+  flex-basis: 49%;
+}
+.app-banner .item:nth-child(2) {
+  display: flex;
+}
+.app-banner .app-title {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.app-banner .app-title img {
+  width: 85%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.app-banner .store-links {
+  box-sizing: border-box;
+  padding: 5px;
+  text-align: center;
+}
+.app-banner .store-links .qr {
+  margin: 10px 30px;
+}
+@media screen and (max-width: 600px) {
+  .app-banner.a {
     display: block;
-    padding: 10px;
-    border: solid 1px #595757;
-    background: #fff;
-    text-align: center;
-    margin-bottom: 10px;
-    font-size: 1.7rem;
-   
+  }
+  .app-banner.a .app-title {
+    width: 100%;
+    aspect-ratio: 10/4;
+  }
+  .app-banner.a .store-links .qr {
+    display: none;
+  }
+  .app-banner.b {
+    padding: 30px 20px;
+  }
+  .app-banner.b .item:nth-child(2) {
+    flex-basis: 55%;
+  }
+  .app-banner.b .store-links .qr {
+    display: none;
+  }
 }
 
-.yoyaku_howto{
-    border: solid 1px #595757;
-    padding: 20px;
-    display: block;
-    margin-bottom: 40px;
+.app-qr {
+  border: solid #5185C5 1px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
 }
-.yoyaku_howto h3{
-    text-align: center;
-    width: fit-content;
-    margin: 0 auto;
-    padding: 6px ;
-    margin-bottom: 20px;
-    border-bottom: solid 1px #595757;
-    letter-spacing: 0.1rem;
-}
-.yoyaku_howto ul li{
-    padding-left: 20px;
-    margin-bottom: 10px;
-    font-size: 1.6rem;
-    position: relative;
-}
-.yoyaku_howto ul li::before{
-    content: '●';
-    position: absolute;
-    left: 0;
-}
-.yoyaku_howto ul li strong{
-    color: #ED1A3D;
-    font-weight: normal;
+.app-qr figure {
+  width: 500px;
+  max-width: 100%;
 }
 
-
-.intro ul li{
-    padding-left: 20px;
-    margin-bottom: 4px;
-    position: relative;
-    line-height: 2.0rem;
+.yoyaku-information {
+  margin-bottom: 30px;
+  background: #D9EDFA;
+  position: relative;
+  padding: 80px 20px 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
 }
-.intro ul li::before{
-    content: '●';
-    position: absolute;
-    left: 0;
+.yoyaku-information p {
+  font-size: 1.6rem;
 }
-
-[class^=yoyaku_download]{
-    margin-bottom: 40px;
+.yoyaku-information .small {
+  font-size: 1.3rem;
 }
-[class^=yoyaku_app]{
-    margin-bottom: 60px;
+.yoyaku-information h3 {
+  font-size: 2.2rem;
+  margin-bottom: 5px;
 }
-
-[class*=--link] h1{
-    max-width: 800px;
-    margin: 0 auto;
-    padding:0 20px;
-    font-size: 1.6rem;
-    margin-bottom: 10px;
+.yoyaku-information h2 {
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+  background: rgba(81, 133, 197, 0.2);
+  font-size: 2rem;
+  color: #5185C5;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-[class*=--link] .wrap{
-    padding: 30px 0;
-    background: rgba(126, 206, 244, 0.35);
+.yoyaku-information h2 img {
+  height: 24px;
 }
-[class*=--link] .inner{
-    max-width: 840px;
+.yoyaku-information a {
+  margin: 20px auto;
+  width: 70%;
+  display: block;
 }
-[class*=--link] a{
-    background: #7ECEF4;
-    border: #7ECEF4 solid 1px;
-    max-width: 500px;
-    text-align: center;
-    display: block;
-    padding: 20px;
-    margin:  10px auto 0;
-    font-weight: bold;
-    font-size: 1.9rem;
-    color: #fff;
-    letter-spacing: 0.1rem;
+.yoyaku-information a:hover {
+  opacity: 0.8;
 }
-[class*=--link] a:hover{
-    background: #fff;
-    color: #7ECEF4;
-}
-[class*=--link] p{
-    text-align: center;
+@media screen and (max-width: 600px) {
+  .yoyaku-information h2 img {
+    height: 14px;
+  }
+  .yoyaku-information h3 {
     font-size: 1.8rem;
-    font-weight: bold;
-    line-height: 2.6rem;
-    margin-bottom: 20px;
+  }
+  .yoyaku-information .small {
+    font-size: 1rem;
+  }
+  .yoyaku-information p {
+    font-size: 1.3rem;
+  }
+  .yoyaku-information a {
+    width: 90%;
+  }
 }
 
-[class^=yoyaku_web] a{
-    margin-bottom: 10px;
-}
-[class^=yoyaku_web] span{
-    display: block;
-    max-width: 500px;
-    margin: 0 auto;
-    line-height: 2.0rem;
-}
-
-.yoyaku_step{
-    margin-bottom: 40px;
+.s-title-b {
+  background: #5185C5;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
 }
 
-.yoyaku_step h1{
-    text-align: center;
-    padding:0 6px 13px;
-    margin-bottom: 20px;
-    border-bottom: solid 1px #595757;
-    letter-spacing: 0.1rem;
+.yoyaku-step li dl {
+  margin-bottom: 40px;
+}
+.yoyaku-step li dt {
+  padding-left: 65px;
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: #5185C5;
+  margin-bottom: 30px;
+  position: relative;
+}
+.yoyaku-step li dt::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.yoyaku-step li:nth-child(1) dt::before {
+  background: url("../images/yoyaku/icon_01.webp") no-repeat;
+  background-size: 100% 100%;
+}
+.yoyaku-step li:nth-child(2) dt::before {
+  background: url("../images/yoyaku/icon_04.webp") no-repeat;
+  background-size: 100% 100%;
+}
+.yoyaku-step li:nth-child(3) dt::before {
+  background: url("../images/yoyaku/icon_03.webp") no-repeat;
+  background-size: 100% 100%;
+}
+.yoyaku-step li:nth-child(4) dt::before {
+  background: url("../images/yoyaku/icon_04.webp") no-repeat;
+  background-size: 100% 100%;
+}
+.yoyaku-step li:nth-child(5) dt::before {
+  background: url("../images/yoyaku/icon_05.webp") no-repeat;
+  background-size: 100% 100%;
+}
+.yoyaku-step li:nth-child(6) dt::before {
+  background: url("../images/yoyaku/icon_02.webp") no-repeat;
+  background-size: 100% 100%;
+}
+.yoyaku-step li:nth-child(7) dt::before {
+  background: url("../images/yoyaku/icon_06.webp") no-repeat;
+  background-size: 100% 100%;
+}
+@media screen and (max-width: 600px) {
+  .yoyaku-step li dt {
+    font-size: 1.8rem;
+  }
 }
 
-.yoyaku_step ul{
-    font-size: 1.6rem;
+.youtube {
+  width: 100%;
+  aspect-ratio: 10/6;
+  position: relative;
 }
-.yoyaku_step ul li{
-    margin-bottom: 20px;
-    padding:10px 0px 10px 40px;
-    border-bottom: solid 1px #595757;
-    position: relative;
-    font-weight: bold;
-} 
-.yoyaku_step ul li::before{
-    content: attr(data-num);
-    height: 100%;
-    top: 0;
-    left: 0;
-    width: 30px;
-    position: absolute;
-    border-right: solid 1px #595757;
-    display: grid;
-    place-items: center;
-}
-.yoyaku_step p{
-    border: solid 1px #595757;
-    text-align: center;
-    padding: 10px 8px;
-    font-weight: bold;
-}
-
-figure.qr{
-    display: grid;
-    place-items: center;
-
-}
-
-figure.qr img{
-    height: 200px;
-}
-
-@media screen and (max-width:768px) {
-    p{
-        font-size: 1.3rem;
-        line-height:1.8rem;
-        margin-bottom: 10px;
-    }
-    .yoyaku_howto ul li{
-        font-size: 1.3rem;
-    }
-    .yoyaku_notice strong{
-        text-align: left;
-        font-size: 1.5rem;
-    }
-    .yoyaku_howto h3{
-        font-size: 1.5rem;
-    }
-    [class*=--link] p{
-        font-size: 1.3rem;
-        line-height: 2.0rem;
-    }
-    [class*=--link] a{
-        font-size: 1.7rem;
-        padding: 14px;
-    }
-    .yoyaku_step h1{
-        font-size: 1.7rem;
-        letter-spacing: 0rem;
-    }
-    .yoyaku_step ul{
-        font-size: 1.3rem;
-        line-height: 1.8rem;
-    }
-    .yoyaku_step ul li{
-        font-weight: normal;
-    }
-    .yoyaku_step p{
-        font-size: 1.4rem;
-        text-align: left;
-    }
-    [class^=yoyaku_web] span{
-        font-size: 1.3rem;
-    }
-
-}
+.youtube iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}/*# sourceMappingURL=yoyaku.css.map */
