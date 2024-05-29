@@ -4,7 +4,8 @@ main {
 }
 
 header {
-  background: url("../images/bk.svg");
+  background: #fff;
+  background-image: url("../images/bk.svg");
   background-size: 100% auto;
   position: relative;
   padding-bottom: 3px;

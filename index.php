@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="./css/font.css">
 <link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" href="./css/common.css?<?= time()?>">
-<link rel="stylesheet" href="./css/top.css?02">
+<link rel="stylesheet" href="./css/top02.css??<?= time()?>">
 <link rel="stylesheet" href="./css/sub.css">
 <link rel="stylesheet" href="./css/contents.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
@@ -96,21 +96,20 @@
 <div class="top_message m-b-30 pc767" style="margin-top:-30px">
 	<div class="inner">
 		<h1>平日午前の2診制導入のお知らせ</h1>
-		<p>　当院では毎週土曜日は２診制で診察させていただいておりますが、2023年4月からは常勤医師を1名増員し、平日午前も2診制となります。<br/>
-		　今後も患者様の待ち時間改善と丁寧な診察をできるよう努めて参ります。<br/>
-		尚、日帰り白内障手術は週2回行っております。どうぞお気軽にご相談下さい。
+		<p>当院では毎週土曜日は２診制で診察させていただいておりますが、2023年4月からは常勤医師を1名増員し、平日午前も2診制となります。<br/>
+		今後も患者様の待ち時間改善と丁寧な診察をできるよう努めて参ります。尚、日帰り白内障手術は週2回行っております。どうぞお気軽にご相談下さい。
 		</p>
 	</div>
 </div>
 
 <div class="top_message m-b-30 pc767" style="margin-top:-30px">
 	<div class="inner">
-		<h1>【2023年6月から】WEB予約方法変更のお知らせ</h1>
-		<p>　当院では、待ち時間をできるだけ少なくするために様々 な取り組みを行っております。その一環で、予約システ ムが2023年6月1日から変更になります。<br/>
-			事前に無料のスマホアプリである「デジスマ診療」アプリ(<a href="https://digikar-smart.jp/" target="_blank">https://digikar-smart.jp/</a>)のアカウント登録をしていただくと、予約・受付・問診・会計を行うことができます。<br/>
-			◎アプリをご登録いただいた方がスムーズに受診できますが、未登録でもスマホ・パソコンからの予約は可能です。
+		<h1>診療予約について</h1>
+		<p>当院では、待ち時間をできるだけ少なくするための取り組みの一環として、予約システムを導入しています。<br/>
+		◎ご予約はWEBサイトまたは無料のスマホアプリからご利用いただけます。<br/>
+		◎アプリのご利用にはインストールおよび事前のアカウント登録が必要ですが、登録後はアプリから予約・受付・問診・会計ができますので、スムーズに受診できます。
 		</p>
-		<p>詳しい内容は、今後「診療予約」にアップ致しますのでもう少々お待ちください。</p>
+		<p class="m-t-10">詳しくは<a href="./yoyaku.html">「診療予約」</a>をご確認ください。</p>
 
 	</div>
 </div>
@@ -127,22 +126,20 @@
 <div class="top_message sp767">
 	<div class="inner">
 	<h1>平日午前の2診制導入のお知らせ</h1>
-	<p>　当院では毎週土曜日は２診制で診察させていただいておりますが、2023年4月からは常勤医師を1名増員し、平日午前も2診制となります。<br/>
-	　今後も患者様の待ち時間改善と丁寧な診察をできるよう努めて参ります。<br/>
-	尚、日帰り白内障手術は週2回行っております。どうぞお気軽にご相談下さい。
+	<p>当院では毎週土曜日は２診制で診察させていただいておりますが、2023年4月からは常勤医師を1名増員し、平日午前も2診制となります。<br/>
+	今後も患者様の待ち時間改善と丁寧な診察をできるよう努めて参ります。尚、日帰り白内障手術は週2回行っております。どうぞお気軽にご相談下さい。
 	</p>
 	</div>
 </div>
 
 <div class="top_message sp767">
 	<div class="inner">
-		<h1>【2023年6月から】<br/>WEB予約方法変更のお知らせ</h1>
-		<p>　当院では、待ち時間をできるだけ少なくするために様々 な取り組みを行っております。その一環で、予約システ ムが2023年6月1日から変更になります。<br/>
-			事前に無料のスマホアプリである「デジスマ診療」アプリ(<a href="https://digikar-smart.jp/" target="_blank">https://digikar-smart.jp/</a>)のアカウント登録をしていただくと、予約・受付・問診・会計を行うことができます。<br/>
-			 ◎アプリをご登録いただいた方がスムーズに受診できますが、未登録でもスマホ・パソコンからの予約は可能です。
+		<h1>診療予約について</h1>
+		<p>当院では、待ち時間をできるだけ少なくするための取り組みの一環として、予約システムを導入しています。<br/>
+		◎ご予約はWEBサイトまたは無料のスマホアプリからご利用いただけます。<br/>
+		◎アプリのご利用にはインストールおよび事前のアカウント登録が必要ですが、登録後はアプリから予約・受付・問診・会計ができますので、スムーズに受診できます。
 		</p>
-		<p>詳しい内容は、今後「診療予約」にアップ致しますのでもう少々お待ちください。</p>
-
+		<p class="m-t-10">詳しくは<a href="./yoyaku.html">「診療予約」</a>をご確認ください。</p>
 	</div>
 </div>
 
@@ -312,9 +309,9 @@
 	</div>
 	<div class="sp767">
 		<nav>  
-			<a href="./sp/sinryo.html" target="_blank">診療案内</a>
-			<a href="./yoyaku.html">診療予約</a>
-			<a href="./sp/degisuma.html" target="_blank"><span>スマホアプリで<span class="sp-block">今すぐ予約</span></span></a>
+			<a href="#" class="modal-frame-button" data-target="modalFrameShinryo"><img src="./images/spnav01.webp"></a>
+			<a href="./yoyaku.html"><img src="./images/spnav02.webp"></a>
+			<a href="#" class="modal-frame-button" data-target="modalFrameDegisuma"><img src="./images/spnav03.webp"></a>
 		</nav>
 	</div>
 	
@@ -328,7 +325,14 @@
 			<div id="modal-degisuma">
 				<figure>
 					<img src="./images/degisuma_pc.webp"/>
+					<a href="https://link.digikar-smart.jp/ios" target="_blank" class="app-link ios">ios</a>
+					<a href="https://link.digikar-smart.jp/android" target="_blank" class="app-link android">android</a>
 				</figure>
+				<div class="more">
+				<a href="./yoyaku.html#about">
+					デジスマ診療とは→
+				</a>
+				</div>
 			</div>
 			<div id="modal-shinryo">
 			<div class="info">
@@ -433,6 +437,15 @@
 		</div>
 	</div>
 </div>
+<div class="modal-frame" id="modalFrameDegisuma">
+	<iframe  src="./sp/degisuma.html" ></iframe>
+	<div class="modal-frame-close"></div>
+</div>
+<div class="modal-frame" id="modalFrameShinryo">
+	<iframe  src="./sp/sinryo.html"></iframe>
+	<div class="modal-frame-close"></div>
+</div>
+
 <script src="./js/slick/slick.min.js"></script>
 <script src="./js/jquery.easing.1.3.js"></script>
 <script src="./js/script.js?<?= time()?>"></script>

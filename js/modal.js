@@ -1,4 +1,15 @@
 
+
+const mainHidden = () => {
+    const main = document.querySelector('main')
+    main.classList.add('invisible');
+}
+
+const mainBlock = () => {
+    const main = document.querySelector('main')
+    main.classList.remove('invisible')
+}
+
 const openModal = (e) => {
     console.log(e)
     e.preventDefault();
@@ -40,3 +51,28 @@ document.querySelectorAll('.modal-button').forEach(button => {
     button.onclick = openModal;
 });
 
+const openModalFrame = async(e) => {
+    e.preventDefault();
+    await closeModalFrame();
+    mainHidden()
+    const contentsId = e.currentTarget.getAttribute('data-target')
+    const modalFrame = document.getElementById(contentsId)
+    modalFrame.classList.add('active')
+}
+
+const closeModalFrame = () => {
+    mainBlock()
+    document.querySelectorAll('.modal-frame').forEach(m => {
+        m.classList.remove('active')
+    })
+}
+
+document.querySelectorAll('.modal-frame-button').forEach(button => {
+    button.onclick = openModalFrame;
+});
+
+
+
+document.querySelectorAll('.modal-frame-close').forEach(button => {
+    button.onclick = closeModalFrame
+})
