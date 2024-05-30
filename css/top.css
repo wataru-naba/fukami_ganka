@@ -467,7 +467,7 @@ modal-frame
 	z-index: 9999;
 	width: 100%;
 	height: calc(100vh - 130px);
-	/* transform: translateX(-100%); 初期状態は画面の左外 */
+	
     display: none;
 }
 .modal-frame::before{
@@ -488,6 +488,7 @@ modal-frame
 }
 .modal-frame.active{
 	display: block;
+	width: 100%;
 	animation: fadeInFromLeft 1s forwards; /* 1秒間のフェードインアニメーションを適用 */
 }
 .modal-frame-close{

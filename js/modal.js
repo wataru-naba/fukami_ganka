@@ -13,6 +13,7 @@ const mainBlock = () => {
 const openModal = (e) => {
     console.log(e)
     e.preventDefault();
+    
     const contentsId = e.currentTarget.getAttribute('data-target')
     const modal = document.querySelector('.modal')
     modal.style.display = "block";
