@@ -1,16 +1,4 @@
 
-//ua
-var ua = navigator.userAgent;
-var ua_flag;
-if(ua.indexOf('iPhone') > 0 || ua.indexOf('iPod') > 0 || (ua.indexOf('Android') > 0) && (ua.indexOf('Mobile') > 0) || ua.indexOf('Windows Phone') > 0) {
-	ua_flag = 'sp';
-	ua_sp();
-}else if(ua.indexOf('iPad') > 0 || ua.indexOf('Android') > 0){
-	ua_flag = 'mobile';
-}else{
-	ua_flag = 'pc';
-	$('body').addClass('hover');
-}
 
 //pagetop
 var pagetop = $('.pagetop');
@@ -115,19 +103,6 @@ function eventHandler(event,selector){
 	if(event.type === 'touchend')selector.off('click');
 }
 
-//smart phone
-function ua_sp(){
-	$('.tel').each(function(){
-		var telnum = $(this).text();
-		$(this).html(
-			telnum.replace(telnum,'<a href="tel:' + telnum + '">' + telnum + '</a>')
-		);
-	});
-	$('.tel_img').each(function(){
-		var telnum = $(this).attr('alt');
-		$(this).wrap('<a href="tel:'+ telnum +'"></a>');
-	});
-}
 
 //test
 function w_test(){

@@ -466,7 +466,7 @@ modal-frame
 	border: none;
 	z-index: 9999;
 	width: 100%;
-	height: calc(100vh - 130px);
+	height: calc(100vh - 80px);
 	
     display: none;
 }
