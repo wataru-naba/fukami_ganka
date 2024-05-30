@@ -40,7 +40,8 @@
 	<div class="modal-frame-close"></div>
 </div>
 <div class="modal-frame" id="modalFrameShinryo">
-	<iframe src="./sp/sinryo.php"></iframe>
+	<!--診療時間-->
+	<?php include('./inc/sinryo.php')?>
 	<div class="modal-frame-close"></div>
 </div>
 

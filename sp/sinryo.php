@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>豊田市で白内障手術なら【深見眼科】　WEB・電話予約可 </title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=414px, initial-scale=1.0">
 <meta name="format-detection" content="telephone=no">
 <meta name="description" content="愛知県豊田市の眼科。目に関する不安は何でもご相談ください。白内障手術、硝子体注射、緑内障や網膜のレーザー治療、オルソケラトロジー（近視治療）まで幅広く対応。">
 <meta name="keyword" content="愛知県,豊田市,眼科,白内障手術,硝子体注射,緑内障,網膜のレーザー治療,オルソケラトロジー（近視治療）">

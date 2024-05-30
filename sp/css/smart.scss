@@ -1,4 +1,7 @@
-
+html, body {
+    width: 414px;
+    overflow-x: hidden; /* 横スクロールを無効にする */
+}
 main{
 	margin: 60px 0;
 }
@@ -38,11 +41,11 @@ header{
         justify-content: center;
         border-radius: 3px 3px 0px 0px ;
         width: fit-content;
-        flex-basis: 33.33%;
-		padding: 5px;
+        flex-basis: 40%;
+		padding:10px 5px;
         margin-right: 1px;
         color : #fff;
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         letter-spacing: 0.1rem;
         position: relative;
         font-weight: normal;
@@ -61,9 +64,7 @@ header{
            
             transform: translateY(-50%);
         }
-        @media screen and (max-width:767px){
-            font-size: 1.1rem;
-        }
+
     }
 }
 /*スマデジ
@@ -142,18 +143,18 @@ section.sumadegi{
 
 /*診療時間
 ------------------------------*/
-.top_info{padding:70px 20px}
+.top_info{padding:40px 15px;}
 .info{max-width:800px;width:100%;display:table;}
-.info>div{display:table-cell;vertical-align:top;}
+.info>div{display:block;max-width:500px;}
 .info>div:nth-child(1){ flex-basis: 30%;}
-.info>div:nth-child(2){ flex-basis: 70%;}
+.info>div:nth-child(2){padding:30px 0 20px; text-align:center;}
 
-.table_info{border-collapse:collapse;width:100%;border-top:1px solid #595757;margin-bottom:10px;}
+.table_info{border-collapse:collapse;width:100%;border-top:1px solid #595757;margin-bottom:10px;margin-bottom:20px;}
 .table_info tr{border-bottom:1px solid #595757;}
 
-.table_info td{padding:10px 15px;text-align:center;}
+.table_info td{padding:10px 15px;text-align:center; padding:10px 5px;font-size:1.4rem;}
 .table_info thead td{text-align:center;}
-.table_info tbody tr td:first-child{text-align:right;}
+.table_info tbody tr td:first-child{text-align:center;}
 .table_info tbody tr:first-child > td {
 	vertical-align: top;
 }
@@ -163,9 +164,9 @@ section.sumadegi{
 	font-size: 1.1rem;
 } 
 
-.shinryo_mes{font-size:1.3rem;line-height:1.5;margin-bottom:10px;}
+.shinryo_mes{font-size:1.2rem;margin-bottom:20px;}
 
-a.b_yoyaku{display:block;width:195px;height:50px;line-height:48px;border:1px solid #7ecef4;color:#7ecef4;text-align:center;border-radius:25px;transition:0.3s;}
+a.b_yoyaku{margin:0 auto;height:40px;line-height:38px;border-radius:20px;}
 .hover a.b_yoyaku:hover{background:#7ecef4;color:#fff;}
 
 .info > .info-tel-access{
@@ -175,6 +176,8 @@ a.b_yoyaku{display:block;width:195px;height:50px;line-height:48px;border:1px sol
 }
 .tel{
     padding:0 10px;
+    margin: 0 auto;
+    text-align: center;
 }
 .access{
 	padding: 10px 0;

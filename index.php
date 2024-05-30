@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="./css/top.css??<?= time()?>">
 <link rel="stylesheet" href="./css/sub.css">
 <link rel="stylesheet" href="./css/contents.css">
+<link rel="stylesheet" href="./css/smart.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-466TG755TX"></script>
@@ -145,6 +146,7 @@
 
 <div class="top_contents">
 
+
 <!--お知らせ-->
 <section class="top_news">
 	<div class="top_news_box">
@@ -164,8 +166,7 @@
 	</div>
 </section><!--/top_news-->
 
-<!--診療時間-->
-<?php include('./inc/sinryotime.php')?>
+
 
 
 <section class="top_access">
@@ -211,22 +212,23 @@
 	<div class="sp767">
 		<nav>  
 			<a href="#" class="modal-frame-button" data-target="modalFrameShinryo"><img src="./images/spnav01.webp"></a>
-			<a href="./yoyaku.php"><img src="./images/spnav02.webp"></a>
+			<a href="./yoyaku.php"><img src="./images/spnav03.webp"></a>
 		</nav>
 	</div>
 	
 </div>
-
 </div><!--/page-->
 
 <?php include('./inc/modal.php') ?>
+
+
 
 <div class="modal-frame" id="modalFrameDegisuma">
 	<iframe  src="./sp/degisuma.php" ></iframe>
 	<div class="modal-frame-close"></div>
 </div>
-<div class="modal-frame" id="modalFrameShinryo">
-	<iframe  src="./sp/sinryo.php"></iframe>
+<div class="modal-frame active" id="modalFrameShinryo">
+	<?php include('./inc/sinryo.php') ?>
 	<div class="modal-frame-close"></div>
 </div>
 

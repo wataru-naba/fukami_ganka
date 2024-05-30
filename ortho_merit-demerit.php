@@ -16,6 +16,7 @@
 <link rel="stylesheet" href="./css/top.css?02">
 <link rel="stylesheet" href="./css/sub.css">
 <link rel="stylesheet" href="./css/ortho.css">
+<link rel="stylesheet" href="./css/smart.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-466TG755TX"></script>
