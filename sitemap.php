@@ -95,10 +95,10 @@
 			<div class="bio_r">
 					<ul>
 						<li><a href="https://fukami-ganka.jp/ortho.html">オルソケラトロジーの概要</a></li>
-						<li><a href="https://fukami-ganka.jp/ortho_about.html">オルソケラトロジーとは</a></li>
-						<li><a href="https://fukami-ganka.jp/ortho_merit-demerit.html">オルソケラトロジーの向き不向き、メリットデメリット</a></li>
-						<li><a href="https://fukami-ganka.jp/ortho_cost.html">オルソケラトロジーの費用</a></li>
-						<li><a href="https://fukami-ganka.jp/ortho_qa.html">よくある質問</a></li>
+						<li><a href="https://fukami-ganka.jp/ortho_about.php">オルソケラトロジーとは</a></li>
+						<li><a href="https://fukami-ganka.jp/ortho_merit-demerit.php">オルソケラトロジーの向き不向き、メリットデメリット</a></li>
+						<li><a href="https://fukami-ganka.jp/ortho_cost.php">オルソケラトロジーの費用</a></li>
+						<li><a href="https://fukami-ganka.jp/ortho_qa.php">よくある質問</a></li>
 					</ul>
 			</div>
 		</div>

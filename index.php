@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="./css/font.css">
 <link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" href="./css/common.css?<?= time()?>">
-<link rel="stylesheet" href="./css/top02.css??<?= time()?>">
+<link rel="stylesheet" href="./css/top.css??<?= time()?>">
 <link rel="stylesheet" href="./css/sub.css">
 <link rel="stylesheet" href="./css/contents.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
@@ -52,24 +52,24 @@
 
 <header class="header">
 	<div class="inner">
-		<h1 class="logo"><a href="./index.html"><img src="./images/logo_top.svg" alt="深見眼科 愛知県豊田市の眼科"></a></h1>
+		<h1 class="logo"><a href="./index.php"><img src="./images/logo_top.svg" alt="深見眼科 愛知県豊田市の眼科"></a></h1>
 		<div class="h_tel">tel.0565-34-1155</div>
 	</div>
 </header>
 
 <nav class="nav mincho">
 	<div class="nav_list">
-		<a href="./goaisatsu.html">院長ご挨拶</a>
-		<a href="./shinryou.html">診療について</a>
-		<a href="./ishi.html">医師紹介</a>
-		<a href="./shisetsu.html">施設紹介</a>
-		<a href="./yoyaku.html">診療予約</a>
-		<a href="./qa.html"><span>よくある質問<br/>Q&A</span></a>
-		<a href="./sick.html" class="lower_row">目の病気</a>
-        <a href="./sick_hakunaisho.html"  class="lower_row">白内障手術</a>
-		<a href="./ortho.html"  class="lower_row"><span>オルソケラトロジー<br>（自費診療）</span></a>
-		<a href="./myopine.html"  class="lower_row"><span>マイオピン点眼薬<br>（自費診療）</span></a>
-		<a href="./recruit.html"  class="lower_row">採用情報</a>
+		<a href="./goaisatsu.php">院長ご挨拶</a>
+		<a href="./shinryou.php">診療について</a>
+		<a href="./ishi.php">医師紹介</a>
+		<a href="./shisetsu.php">施設紹介</a>
+		<a href="./yoyaku.php">診療予約</a>
+		<a href="./qa.php"><span>よくある質問<br/>Q&A</span></a>
+		<a href="./sick.php" class="lower_row">目の病気</a>
+        <a href="./sick_hakunaisho.php"  class="lower_row">白内障手術</a>
+		<a href="./ortho.php"  class="lower_row"><span>オルソケラトロジー<br>（自費診療）</span></a>
+		<a href="./myopine.php"  class="lower_row"><span>マイオピン点眼薬<br>（自費診療）</span></a>
+		<a href="./recruit.php"  class="lower_row">採用情報</a>
 	</div>
 </nav>
 
@@ -109,7 +109,7 @@
 		◎ご予約はWEBサイトまたは無料のスマホアプリからご利用いただけます。<br/>
 		◎アプリのご利用にはインストールおよび事前のアカウント登録が必要ですが、登録後はアプリから予約・受付・問診・会計ができますので、スムーズに受診できます。
 		</p>
-		<p class="m-t-10">詳しくは<a href="./yoyaku.html">「診療予約」</a>をご確認ください。</p>
+		<p class="m-t-10">詳しくは<a href="./yoyaku.php">「診療予約」</a>をご確認ください。</p>
 
 	</div>
 </div>
@@ -139,7 +139,7 @@
 		◎ご予約はWEBサイトまたは無料のスマホアプリからご利用いただけます。<br/>
 		◎アプリのご利用にはインストールおよび事前のアカウント登録が必要ですが、登録後はアプリから予約・受付・問診・会計ができますので、スムーズに受診できます。
 		</p>
-		<p class="m-t-10">詳しくは<a href="./yoyaku.html">「診療予約」</a>をご確認ください。</p>
+		<p class="m-t-10">詳しくは<a href="./yoyaku.php">「診療予約」</a>をご確認ください。</p>
 	</div>
 </div>
 
@@ -165,106 +165,8 @@
 </section><!--/top_news-->
 
 <!--診療時間-->
-<section class="top_info">
-	<div class="info">
-		<div class="info-tel-access">
-			<h2 class="t_top"><img src="./images/t_info.png" alt="診療時間" width="126"></h2>
-			<div class="tel">
-				<img src="./images/tel.png" alt="0565-34-1155" width="147" class="tel_img">
-			</div>
-			<div class="access">
-				<dl>
-					<dt>［深見眼科］</dt>
-					<dd>
-						〒471-0079<br/>
-						豊田市陣中町1-6-11<span><a href="https://maps.app.goo.gl/JBqcASGATYjkKXmW6" target="_blank">Googleマップで開く</a></span>
-					</dd>
-					<dd>
-						【電車をご利用のお客様】<br/>
-						名鉄梅坪駅下車、高架沿いに豊田方面へ(徒歩7〜8分)<br/>
-						【お車をご利用のお客様】<br/>
-						深見眼科ビル前に専用平面駐車25台以上有り
-					</dd>
-				</dl>
-			</div>
-		</div>
-		<div>
-			<div class="consultation">
-				<div class="hour">
-					診療時間<br/>
-					9：30〜<br/>12：30
-				</div>
-				<dl>
-					<dt>曜日</dt>
-					<dd>月</dd>
-					<dd>火</dd>
-					<dd>水</dd>
-					<dd>木</dd>
-					<dd>金</dd>
-					<dd>土</dd>
-					
-					<dt>診療</dt>
-					<dd>○<br/>2診<br/>★</dd>
-					<dd>○</dd>
-					<dd>○<br/>2診<br/>★</dd>
-					<dd>○<br/>2診</dd>
-					<dd>○<br/>2診</dd>
-					<dd>○<br/>2診</dd>
-					
-					<dt>担当</dt>
-					<dd>院長<br/>副院長</dd>
-					<dd>院長</dd>
-					<dd>院長<br/>副院長</dd>
-					<dd>院長<br/>副院長</dd>
-					<dd>院長<br/>副院長</dd>
-					<dd>院長<br/>副院長</dd>
-				</dl>
-			</div>
+<?php include('./inc/sinryotime.php')?>
 
-			<div class="consultation">
-				<div class="hour">
-					診療時間<br/>
-					15：30〜<br/>18：30
-				</div>
-				<dl>
-					<dt>曜日</dt>
-					<dd>月</dd>
-					<dd>火</dd>
-					<dd>水</dd>
-					<dd>木</dd>
-					<dd>金</dd>
-					<dd>土</dd>
-					
-					<dt>診療</dt>
-					<dd>○</dd>
-					<dd>-</dd>
-					<dd>○</dd>
-					<dd>○</dd>
-					<dd>○</dd>
-					<dd>-</dd>
-					
-					<dt>担当</dt>
-					<dd>院長</dd>
-					<dd>-</dd>
-					<dd>院長</dd>
-					<dd>副院長</dd>
-					<dd>院長</dd>
-					<dd>-</dd>
-				</dl>
-			</div>
-			
-
-			<p class="shinryo_mes">
-			2診：2診制です。<br/>
-			★手術日のため、2診は11：30まで。<br/>
-			休診日：火曜午後・土曜午後・日曜日・祝日・年末年始<br/>
-			疾患の内容により、同日にすべての検査が行えない場合があります。<br/>
-			ご不明な場合はお問合せ下さい
-			</p>
-			<a href="./yoyaku.html" class="b_yoyaku">診療の予約をする</a>
-		</div>
-	</div>
-</section><!--/top_info-->
 
 <section class="top_access">
 	<div class="top_access_box">
@@ -285,14 +187,14 @@
 </section>
 
 <section class="top_banner">
-		<div class="al-c m-t-20"><a href="./recruit.html"><img src="./images/info_recruit.png" alt="採用情報"></a></div>
+		<div class="al-c m-t-20"><a href="./recruit.php"><img src="./images/info_recruit.png" alt="採用情報"></a></div>
 </section><!--/top_banner-->
 
 </div><!--/top_contents-->
 
 <footer class="footer clearfix">
-	<a href="./index.html" class="f_logo"><img src="./images/logo.svg" alt="深見眼科 愛知県豊田市の眼科"></a>
-	<div class="copyright"><i class="icon-at"></i> Fukami eye clinic All Right Reserved.<br/><a href="https://fukami-ganka.jp/sitemap.html"> - サイトマップ</a></div>
+	<a href="./index.php" class="f_logo"><img src="./images/logo.svg" alt="深見眼科 愛知県豊田市の眼科"></a>
+	<div class="copyright"><i class="icon-at"></i> Fukami eye clinic All Right Reserved.<br/><a href="https://fukami-ganka.jp/sitemap.php"> - サイトマップ</a></div>
 </footer>
 </main>
 
@@ -303,146 +205,28 @@
 	<div class="pc767">
 		<nav>  
 			<a href="#" class="modal-button" data-target="modal-shinryo">診療案内</a>
-			<a href="./yoyaku.html">診療予約</a>
-			<a  href="#" class="modal-button" data-target="modal-degisuma"><span>スマホアプリで<span class="sp-block">今すぐ予約</span></span></a>
+			<a href="./yoyaku.php">診療予約</a>
 		</nav>
 	</div>
 	<div class="sp767">
 		<nav>  
 			<a href="#" class="modal-frame-button" data-target="modalFrameShinryo"><img src="./images/spnav01.webp"></a>
-			<a href="./yoyaku.html"><img src="./images/spnav02.webp"></a>
-			<a href="#" class="modal-frame-button" data-target="modalFrameDegisuma"><img src="./images/spnav03.webp"></a>
+			<a href="./yoyaku.php"><img src="./images/spnav02.webp"></a>
 		</nav>
 	</div>
 	
 </div>
 
 </div><!--/page-->
-<div class="modal">
-	<div class="modal-contents">
-		<button class="modal-close"></button>
-		<div class="modal--inner">
-			<div id="modal-degisuma">
-				<figure>
-					<img src="./images/degisuma_pc.webp"/>
-					<a href="https://link.digikar-smart.jp/ios" target="_blank" class="app-link ios">ios</a>
-					<a href="https://link.digikar-smart.jp/android" target="_blank" class="app-link android">android</a>
-				</figure>
-				<div class="more">
-				<a href="./yoyaku.html#about">
-					デジスマ診療とは→
-				</a>
-				</div>
-			</div>
-			<div id="modal-shinryo">
-			<div class="info">
-				<div class="info-tel-access">
-					<h2 class="t_top"><img src="./images/t_info.png" alt="診療時間" width="126"></h2>
-					<div class="tel">
-						<img src="./images/tel.png" alt="0565-34-1155" width="147" class="tel_img">
-					</div>
-					<div class="access">
-						<dl>
-							<dt>［深見眼科］</dt>
-							<dd>
-								〒471-0079<br/>
-								豊田市陣中町1-6-11<span><a href="https://maps.app.goo.gl/JBqcASGATYjkKXmW6" target="_blank">Googleマップで開く</a></span>
-							</dd>
-							<dd>
-								【電車をご利用のお客様】<br/>
-								名鉄梅坪駅下車、高架沿いに豊田方面へ(徒歩7〜8分)<br/>
-								【お車をご利用のお客様】<br/>
-								深見眼科ビル前に専用平面駐車25台以上有り
-							</dd>
-						</dl>
-					</div>
-				</div>
-				<div>
-					<div class="consultation">
-						<div class="hour">
-							診療時間<br/>
-							9：30〜<br/>12：30
-						</div>
-						<dl>
-							<dt>曜日</dt>
-							<dd>月</dd>
-							<dd>火</dd>
-							<dd>水</dd>
-							<dd>木</dd>
-							<dd>金</dd>
-							<dd>土</dd>
-							
-							<dt>診療</dt>
-							<dd>○<br/>2診<br/>★</dd>
-							<dd>○</dd>
-							<dd>○<br/>2診<br/>★</dd>
-							<dd>○<br/>2診</dd>
-							<dd>○<br/>2診</dd>
-							<dd>○<br/>2診</dd>
-							
-							<dt>担当</dt>
-							<dd>院長<br/>副院長</dd>
-							<dd>院長</dd>
-							<dd>院長<br/>副院長</dd>
-							<dd>院長<br/>副院長</dd>
-							<dd>院長<br/>副院長</dd>
-							<dd>院長<br/>副院長</dd>
-						</dl>
-					</div>
 
-					<div class="consultation">
-						<div class="hour">
-							診療時間<br/>
-							15：30〜<br/>18：30
-						</div>
-						<dl>
-							<dt>曜日</dt>
-							<dd>月</dd>
-							<dd>火</dd>
-							<dd>水</dd>
-							<dd>木</dd>
-							<dd>金</dd>
-							<dd>土</dd>
-							
-							<dt>診療</dt>
-							<dd>○</dd>
-							<dd>-</dd>
-							<dd>○</dd>
-							<dd>○</dd>
-							<dd>○</dd>
-							<dd>-</dd>
-							
-							<dt>担当</dt>
-							<dd>院長</dd>
-							<dd>-</dd>
-							<dd>院長</dd>
-							<dd>副院長</dd>
-							<dd>院長</dd>
-							<dd>-</dd>
-						</dl>
-					</div>
-					
+<?php include('./inc/modal.php') ?>
 
-					<p class="shinryo_mes">
-					2診：2診制です。<br/>
-					★手術日のため、2診は11：30まで。<br/>
-					休診日：火曜午後・土曜午後・日曜日・祝日・年末年始<br/>
-					疾患の内容により、同日にすべての検査が行えない場合があります。<br/>
-					ご不明な場合はお問合せ下さい
-					</p>
-					<a href="./yoyaku.html" class="b_yoyaku">診療の予約をする</a>
-				</div>
-			</div>
-			</div>
-		</div>
-	</div>
-</div>
 <div class="modal-frame" id="modalFrameDegisuma">
-	<iframe  src="./sp/degisuma.html" ></iframe>
+	<iframe  src="./sp/degisuma.php" ></iframe>
 	<div class="modal-frame-close"></div>
 </div>
 <div class="modal-frame" id="modalFrameShinryo">
-	<iframe  src="./sp/sinryo.html"></iframe>
+	<iframe  src="./sp/sinryo.php"></iframe>
 	<div class="modal-frame-close"></div>
 </div>
 

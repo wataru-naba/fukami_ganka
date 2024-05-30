@@ -23,41 +23,7 @@
 
 <div id="page">
 
-	<header class="sub_header mincho fix on">
-		<div class="inner">
-			<div class="sub_logo"><h1><a href="./index.php"><img src="./images/logo.svg" alt="深見眼科 愛知県豊田市の眼科" width="178"></a></h1></div>
-			<div class="sp_tel"><a href="tel:0565-34-1155"><i class="icon-phone-circled"></i></a></div>
-			<div class="nav_wrap">
-				<div class="h_tel">tel.0565-34-1155</div>
-				<div class="sub_nav">
-					<nav class="nav_list">
-						<nav class="nav_list">
-							<a href="./">ホーム</a>
-							<a href="./goaisatsu.html">院長ご挨拶</a>
-							<a href="./shinryou.html">診療について</a>
-							<a href="./ishi.html">医師紹介</a>
-							<a href="./shisetsu.html">施設紹介</a>
-							<a href="./yoyaku.html" class="active">診療予約</a>
-							<a href="./qa.html">よくある質問<br/>Q&A</a>
-							<a href="./sick.html" >目の病気</a>
-							<a href="./sick_hakunaisho.html" >白内障手術</a>
-							<a href="./ortho.html">オルソケラトロジー<br>（自費診療）</a>
-							<a href="./myopine.html">マイオピン点眼薬<br>（自費診療）</a>
-							<a href="./recruit.html">採用情報</a>
-						</nav>
-					</nav>
-				</div>
-			</div>
-		</div>
-		<div class="nav-button-wrap">
-			<div class="nav-button">
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
-			<strong>MENU</strong>
-		</div>
-	</header>
+<?php include('./inc/header.php')?>
 
 <div class="contents">
 
@@ -77,7 +43,7 @@
 			</ul>
 		</div>
 	</div>
-		<p>アプリで健康保険証と医療費受給者などの登録もお願いしておりますが、確認のため初診時と月初め来院時は健康保険証をご持参ください。</p>
+		
 		<div class="app-banner a">
 			<div class="item">
 				<figure class="app-title"><img src="./images/yoyaku/degisuma.webp" alt="デジスマ診療"/><figure>
@@ -124,9 +90,6 @@
 				<li>疾患の内容により同日にすべての検査が行えない場合がありますので、あらかじめご了承ください。</li>
 				<li><strong class="red">3歳児健診、コンタクト処方の新規処方、コンタクトの種類変更、眼鏡処方はインターネット予約では承っておりません。</strong>お電話あるいは受付にてご相談ください。</li>
 			</ul>
-		</div>
-		<div class="catch">
-			<p>アプリで健康保険証の登録もお願いしておりますが、確認のため初診時と月初め来院時は健康保険証をご持参ください。</p>
 		</div>
 		<p>※WEBサイトから予約後にアプリ登録した場合もアプリ上に予約が表示されますのでご安心ください。</p>
 	</div>
@@ -224,7 +187,7 @@
 					<p>
 						会計時にお薬をお渡しします。院外処方の場合は受付で処方箋をお渡ししますので、薬局にお持ちください。<br/>
 						下記は現在準備中です。<br/>
-						アプリでクレジットカードを登録済みの場合は、会計を待たずにこのまま帰宅できます。<br/>
+						※アプリでクレジットカードを登録済みの場合は、会計を待たずにこのまま帰宅できます。<br/>
 						※アプリにクレジットカードを登録されていない方は、受付で会計が必要です。
 					</p>
 				</dd>
@@ -242,97 +205,15 @@
 </section>
 
 <!--診療時間-->
-<div class="block block_info">
-	<div class="info">
-		<div>
-			<h2 class="t_top"><img src="./images/t_info.png" alt="診療時間" width="126" class="imgfix"></h2>
-		</div>
-		<div>
-			<img src="./images/tel.png" alt="0565-34-1155" width="147" class="tel_img imgfix">
-		</div>
-		<div>
-			<div class="consultation">
-				<div class="hour">
-					診療時間<br/>
-					9：30〜<br/>12：30
-				</div>
-				<dl>
-					<dt>曜日</dt>
-					<dd>月</dd>
-					<dd>火</dd>
-					<dd>水</dd>
-					<dd>木</dd>
-					<dd>金</dd>
-					<dd>土</dd>
-					
-					<dt>診療</dt>
-					<dd>○<br/>2診<br/>★</dd>
-					<dd>○</dd>
-					<dd>○<br/>2診<br/>★</dd>
-					<dd>○<br/>2診</dd>
-					<dd>○<br/>2診</dd>
-					<dd>○<br/>2診</dd>
-					
-					<dt>担当</dt>
-					<dd>院長<br/>副院長</dd>
-					<dd>院長</dd>
-					<dd>院長<br/>副院長</dd>
-					<dd>院長<br/>副院長</dd>
-					<dd>院長<br/>副院長</dd>
-					<dd>院長<br/>副院長</dd>
-				</dl>
-			</div>
+<?php include('./inc/sinryotime.php')?>
 
-			<div class="consultation">
-				<div class="hour">
-					診療時間<br/>
-					15：30〜<br/>18：30
-				</div>
-				<dl>
-					<dt>曜日</dt>
-					<dd>月</dd>
-					<dd>火</dd>
-					<dd>水</dd>
-					<dd>木</dd>
-					<dd>金</dd>
-					<dd>土</dd>
-					
-					<dt>診療</dt>
-					<dd>○</dd>
-					<dd>-</dd>
-					<dd>○</dd>
-					<dd>○</dd>
-					<dd>○</dd>
-					<dd>-</dd>
-					
-					<dt>担当</dt>
-					<dd>院長</dd>
-					<dd>-</dd>
-					<dd>院長</dd>
-					<dd>副院長</dd>
-					<dd>院長</dd>
-					<dd>-</dd>
-				</dl>
-			</div>
-			
-
-			<p class="shinryo_mes">
-			2診：2診制です。<br/>
-			★手術日のため、2診は11：30まで。<br/>
-			休診日：火曜午後・土曜午後・日曜日・祝日・年末年始<br/>
-			疾患の内容により、同日にすべての検査が行えない場合があります。<br/>
-			ご不明な場合はお問合せ下さい
-			</p>
-
-		</div>
-	</div>
-</div>
 <section class="top_banner">
 	<div class="al-c m-t-20"><a href="./recruit.html"><img src="./images/info_recruit.png" alt="採用情報"></a></div>
 </section><!--/top_banner-->
 
 </div><!--/contents-->
 
+</main>
 <footer class="footer clearfix">
 	<a href="./index.html" class="f_logo"><img src="./images/logo.svg" alt="深見眼科 愛知県豊田市の眼科"></a>
 	<div class="copyright"><i class="icon-at"></i> Fukami eye clinic All Right Reserved.<br/><a href="https://fukami-ganka.jp/sitemap.html"> - サイトマップ</a></div>
@@ -346,6 +227,6 @@
 <script src="./js/slick/slick.min.js"></script>
 <script src="./js/jquery.easing.1.3.js"></script>
 <script src="./js/script.js"></script>
-
+<script src="./js/navActive.js"></script>
 </body>
 </html>
