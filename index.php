@@ -227,7 +227,7 @@
 	<iframe  src="./sp/degisuma.php" ></iframe>
 	<div class="modal-frame-close"></div>
 </div>
-<div class="modal-frame active" id="modalFrameShinryo">
+<div class="modal-frame" id="modalFrameShinryo">
 	<?php include('./inc/sinryo.php') ?>
 	<div class="modal-frame-close"></div>
 </div>

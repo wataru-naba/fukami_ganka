@@ -1,5 +1,5 @@
 
-!(function () {
+/*!(function () {
 	const viewport = document.querySelector('meta[name="viewport"]');
 	function switchViewport() {
 	  const value =
@@ -13,7 +13,7 @@
 	addEventListener('resize', switchViewport, false);
 	switchViewport();
   })();
-
+*/
   
 //ua
 var ua = navigator.userAgent;
