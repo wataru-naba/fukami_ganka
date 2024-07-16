@@ -63,7 +63,7 @@
 		<div class="app-qr">
 			<div class="sp767">
 				<p class="m-b-20"><img src="./images/yoyaku/app_sp_text.svg"/></p>
-				<a href="https://link.digikar-smart.jp/ios" target="_blank">
+				<a href="https://qr.digikar-smart.jp/0ce9e297-697a-4670-b733-e66f5547cb69/reserve" target="_blank">
 					<img src="./images/yoyaku/app_btn.webp" alt="アプリを開く"/>
 				</a>
 			</div>
@@ -144,7 +144,7 @@
 							登録後に下記のボタンをタップしてアプリを起動すると<br/>
 							当院の予約画面が表示されます。画面の案内に従って予約をしてください。
 						</p>
-						<a href="https://link.digikar-smart.jp/ios" target="_blank">
+						<a href="https://qr.digikar-smart.jp/0ce9e297-697a-4670-b733-e66f5547cb69/reserve" target="_blank">
 							<img src="./images/yoyaku/app_btn.webp" alt="アプリを開く"/>
 						</a>
 					</div>

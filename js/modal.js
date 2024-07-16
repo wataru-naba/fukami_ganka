@@ -59,6 +59,7 @@ const openModalFrame = async(e) => {
     const contentsId = e.currentTarget.getAttribute('data-target')
     const modalFrame = document.getElementById(contentsId)
     modalFrame.classList.add('active')
+    document.body.classList.add('modal-open');
 }
 
 const closeModalFrame = () => {
@@ -66,6 +67,7 @@ const closeModalFrame = () => {
     document.querySelectorAll('.modal-frame').forEach(m => {
         m.classList.remove('active')
     })
+    document.body.classList.remove('modal-open');
 }
 
 document.querySelectorAll('.modal-frame-button').forEach(button => {

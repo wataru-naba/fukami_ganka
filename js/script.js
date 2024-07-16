@@ -92,38 +92,6 @@ $('.b_yoyaku_start').matchHeight();
 }
 
 
-$(window).on("load resize orientationchange",function(){
-	responsive();
-	//main_resize();
-	//w_test();
-});
-
-function responsive(){
-var w = window.innerWidth;
-var h = $(window).height();
-
-var s = 400;
-var x = 767;
-var y = 1024;
-if (w <= s){
-//sp1
-
-}
-else if (w > s && w <= x){
-//sp2
-
-}
-else if (w > x && w <= y){
-//tb
-
-}
-else{
-/*pc*/
-
-}
-
-}
-responsive();
 
 function eventHandler(event,selector){
 	event.stopPropagation();

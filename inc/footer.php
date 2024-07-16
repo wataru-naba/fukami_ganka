@@ -29,7 +29,7 @@
 	<div class="sp767">
 		<nav>  
 			<a href="#" class="modal-frame-button" data-target="modalFrameShinryo"><img src="./images/spnav01.webp?<?=time()?>"></a>
-			<a href="./yoyaku.php"><img src="./images/spnav03.webp?<?=time()?>"></a>
+			<a href="./yoyaku.php"><img src="./images/spnav02.webp?<?=time()?>"></a>
 		</nav>
 	</div>
 </div>

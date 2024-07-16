@@ -2,7 +2,7 @@
 
 <div id="smartContents">
 	<header>
-		<h1 class="mincho">診療案内</h1>
+		<h1 class="mincho"><img src="./images/spnav01.webp?<?=time()?>"/></h1>
 	</header>
 	<main>
 	<!--診療時間-->

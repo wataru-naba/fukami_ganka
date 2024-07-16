@@ -64,38 +64,6 @@ $('.b_yoyaku_start').matchHeight();
 }
 
 
-$(window).on("load resize orientationchange",function(){
-	responsive();
-	//main_resize();
-	//w_test();
-});
-
-function responsive(){
-var w = window.innerWidth;
-var h = $(window).height();
-
-var s = 400;
-var x = 767;
-var y = 1024;
-if (w <= s){
-//sp1
-
-}
-else if (w > s && w <= x){
-//sp2
-
-}
-else if (w > x && w <= y){
-//tb
-
-}
-else{
-/*pc*/
-
-}
-
-}
-responsive();
 
 function eventHandler(event,selector){
 	event.stopPropagation();
@@ -104,11 +72,6 @@ function eventHandler(event,selector){
 }
 
 
-//test
-function w_test(){
-	var test = window.innerWidth;
-	$('title').text(test);
-}
 
 //商品スクロール
 $('.pn_box').on('click',function(){
@@ -140,10 +103,3 @@ $(window).on('load scroll touchmove resize',function(){
 	}
 });
 
-function main_resize(){
-	var w = $(window).innerWidth();
-	var h = w * (618 / 1000);
-	if(w <= 1000){
-		$('.main,.mi').css('height',h+'px');
-	}
-}

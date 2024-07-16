@@ -1,3 +1,8 @@
+body.modal-open {
+    overflow-x: hidden;
+    position: fixed;
+    width: 100%;
+}
 .top_message{
 	padding: 20px;
 }
@@ -459,15 +464,13 @@ main.invisible{
 modal-frame
 -----------*/
 .modal-frame{
-	position: fixed;
+	position: absolute;
 	overflow-y: scroll;
 	top: 0;
 	left: 0;
-	border: none;
 	z-index: 9999;
 	width: 100%;
 	height: calc(100vh - 80px);
-	
     display: none;
 }
 .modal-frame::before{
@@ -488,7 +491,6 @@ modal-frame
 }
 .modal-frame.active{
 	display: block;
-	width: 100%;
 	animation: fadeInFromLeft 1s forwards; /* 1秒間のフェードインアニメーションを適用 */
 }
 .modal-frame-close{
@@ -499,14 +501,14 @@ modal-frame
 	background: url('../images/closebtn.svg') no-repeat;
 	background-size: 100% 100%;
 	border: none;
-	top: 50px;
+	top: 60px;
 	right: 20px;
 	cursor: pointer;
 }
 @keyframes fadeInFromLeft {
     0% {
         opacity: 0;
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
     100% {
         opacity: 1;
