@@ -21,7 +21,9 @@
 				<div class="consultation">
 					<div class="hour">
 						診療時間<br/>
-						9：30〜<br/>12：30
+						9：30〜<br/>12：30<br/>
+						<br/>
+						受付終了は<br/>12:15<br/>です。
 					</div>
 					<dl>
 						<dt>曜日</dt>
@@ -53,7 +55,9 @@
 				<div class="consultation">
 					<div class="hour">
 						診療時間<br/>
-						15：30〜<br/>18：30
+						15：30〜<br/>18：30<br/>
+						<br/>
+						受付終了は<br/>18:15<br/>です。
 					</div>
 					<dl>
 						<dt>曜日</dt>
