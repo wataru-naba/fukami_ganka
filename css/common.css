@@ -216,3 +216,5 @@ a:hover{color:#7ecef4;}
 		min-height: 35px;
 		display: flex;
   }
+
+.link-blue, .link-blue:link, .link-blue:visited{color:#007bff;}
