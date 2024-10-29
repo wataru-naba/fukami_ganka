@@ -95,7 +95,8 @@ a.b_link{background:#7ecef4;display:inline-block;color:#fff;font-size:1.3rem;tex
 	left: 0;
 }
 .pickup_recruit p{
-	font-size: 1.9rem;
+	font-size: 1.8rem;
+	color: #231815;
 }
 .about_recruit{border: solid 1px #231815;padding:10px 8px; background-color:#F7F7F8;color:#595757}
 .pickup_recruit span{font-size: 1.7rem; color: #231815; padding-top: 10px;}
